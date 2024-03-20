@@ -1,18 +1,40 @@
-# Dishdive
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-The DishDive project addresses the challenge of providing a centralized and user-friendly platform for individuals passionate about culinary exploration. The problem it intends to solve is the fragmentation of recipe-related information across various sources, making it cumbersome for users to discover and organize diverse recipes tailored to their preferences.
+## Getting Started
 
- *Centralized Platform:* DishDive aims to provide a single platform where users can access a wide range of recipes without having to visit multiple sources. This centralization simplifies the recipe discovery process and saves users time and effort.
+First, run the development server:
 
- *User-Friendly Interface:* The platform intends to offer a user-friendly interface that enhances the overall user experience. This includes intuitive navigation, easy search functionality, and seamless organization of recipes.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-*Fragmentation of Recipe Information:*
-The primary challenge DishDive seeks to overcome is the fragmentation of recipe-related information across various sources. With recipes scattered across websites, cookbooks, and social media platforms, users often struggle to find comprehensive and reliable resources for their culinary exploration.
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-*Discoverability and Organization:* DishDive aims to improve the discoverability and organization of recipes tailored to users' preferences. By centralizing recipe information and providing robust search and filtering options, the platform helps users discover new recipes while allowing them to organize and save their favorites for future reference.
+You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
 
-In summary, DishDive addresses the need for a centralized and user-friendly platform that simplifies the process of discovering, organizing, and exploring diverse recipes. By tackling the fragmentation of recipe-related information, the platform aims to enhance the culinary experience for passionate home cooks and food enthusiasts.
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
 
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
+## Learn More
 
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
